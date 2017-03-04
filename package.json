@@ -1,0 +1,6 @@
+{
+	"name": "elements",
+	"version": "0.0.1",
+	"description": "methods for handling dom elements",
+	"dependencies": {}
+}
