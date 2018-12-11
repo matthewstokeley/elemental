@@ -22,6 +22,8 @@ npm install && grunt
 
 ```
 
+## File-size
+
 Individual modules can be added or removed from the `Gruntfile.js` `concat` configuration object: `concat.dist.src`.   
 
 
