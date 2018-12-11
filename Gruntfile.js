@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                     'src/remove-element.js',
                     'src/remove.js',
                     'src/show.js',
-                    'src/string-to-node.js'
+                    'src/string-to-element.js'
                 ],
                 dest: 'dist/js/<%= pkg.name %>.js'
             }
