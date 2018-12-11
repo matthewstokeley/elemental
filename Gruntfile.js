@@ -8,6 +8,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: [
+                    'src/init.js',
                     'src/add-class-to-elements.js',
                     'src/add-class.js',
                     'src/create-element.js',
