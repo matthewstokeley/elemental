@@ -1,6 +1,6 @@
 ## Javascript Elements
 
-`jsElements` contains a couple of methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
+`jsElements` contains a couple of methods for handling `DOM` elements.  The library was built with the goal of learning the best methods for interacting with `Elements` and is meant to be a lightweight replacement for `jQuery`. (Hat tip to `zepto` and other `jQuery` replacement libraries.)
 
 The scope of this library covers two different concerns.
 
