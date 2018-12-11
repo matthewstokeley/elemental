@@ -1,17 +1,16 @@
 ## Elements
-methods for handling dom elements.  this library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
+Methods for handling dom elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
 
 The scope of this library covers two different concerns.
 
-1. `state` - programtically changing state with classes. 
+1. Classes - programtically changing state with classes. 
 
-2.  `elements` - `create`, `remove`
+2. Elements - `create`, `remove`
 
-`display` methods are currently not available - this library was originally written for use with `velocity.js` and therefore relies on managing style properties like `display` using css classes. 
 
 ## Build
 
-building the script requires `grunt` and `npm`
+Building the script requires `grunt` and `npm`
 
 ```
 git clone ...
@@ -22,11 +21,10 @@ npm install && grunt
 
 ```
 
-Individual modules can be added or removed from `Gruntfile.js` `concat` configuration object - `concat.dist.src`.   
+Individual modules can be added or removed from `Gruntfile.js` `concat` configuration object: `concat.dist.src`.   
 
 ##### A note on syntax
-This library was around the time that `es6` was becoming a standard and relies on *should* rely on a `pojo` (plain old javascript object) for encapsulation.  
-
+This library was around the time that `es6` was becoming a standard *should* rely on a `pojo` (plain old javascript object) for encapsulation.  
 
 ## Example
 
