@@ -24,8 +24,6 @@ npm install && grunt
 
 Individual modules can be added or removed from the `Gruntfile.js` `concat` configuration object: `concat.dist.src`.   
 
-##### A note on syntax
-This library was around the time that `es6` was becoming a standard *should* rely on a `pojo` (plain old javascript object) for encapsulation.  
 
 ## Example
 
