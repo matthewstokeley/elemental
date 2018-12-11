@@ -31,14 +31,21 @@ Individual modules can be added or removed from the `Gruntfile.js` `concat` conf
 
 ```
 
+// `pojo`
 var el = jsElements.createElement({
 	id: 'id',
 	name: 'name'
 })
 
+// `es6`
+
+import { createElements } from 'jsElements';
+var el = createElement({ ... });
+
 //div.append(el) ...
 
 ```
+
 
 ## API Documentation
 
