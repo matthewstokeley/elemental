@@ -1,4 +1,4 @@
-## Javasript Elements
+## Javascript Elements
 
 `jsElements` contains a couple of methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
 
