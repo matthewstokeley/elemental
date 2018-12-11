@@ -5,7 +5,7 @@
  * @param  {[type]}  className [description]
  * @return {Boolean}           [description]
  */
-var hasClass = function(element, className) {
+export var hasClass = function(element, className) {
         if (element.classList && element.classList.remove) {
         	for (var property in element.classList) {
         		if (element.classList.hasOwnProperty(property)) {
@@ -20,5 +20,3 @@ var hasClass = function(element, className) {
         }
         return false;
 }
-
-jsElements.hasClass = hasClass;

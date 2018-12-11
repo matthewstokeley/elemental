@@ -1,5 +1,5 @@
 
-var addClassToElements = function(array, className) {
+export var addClassToElements = function(array, className) {
 
 	for (var i = 0; i < array.length; i++) {
 		if (array[i].classList && array[i].classList.add) {

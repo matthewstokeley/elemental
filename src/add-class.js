@@ -4,7 +4,7 @@
  * @param {[type]} className [description]
  */
 
-var addClass = function(element, className) {
+export var addClass = function(element, className) {
 
     if (element.classList && element.classList.add) {
         element.classList.add(className);

@@ -3,7 +3,7 @@
  * [removeElement description]
  * @return {[type]} [description]
  */
-var removeElement = function(element) {
+export var removeElement = function(element) {
 	
 	if (!('remove' in Element.prototype)) {
 	    Element.prototype.remove = function() {

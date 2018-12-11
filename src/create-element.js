@@ -3,7 +3,7 @@
  * @param  {[type]} options [description]
  * @return {[type]}         [description]
  */
-var createElement = function(options) {
+export var createElement = function(options) {
 
 	var element = document.createElement(options.element);        	
 	for(var prop in options.properties) {

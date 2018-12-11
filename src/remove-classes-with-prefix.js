@@ -6,7 +6,7 @@
  * @param  {[type]} prefix  [description]
  * @return {[type]}         [description]
  */
-var removeClassWithPrefix = function(element, prefix) {
+export var removeClassWithPrefix = function(element, prefix) {
 
 	/**
 	 * [findClassesWithPrefix description]

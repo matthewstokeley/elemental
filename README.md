@@ -31,12 +31,16 @@ Individual modules can be added or removed from the `Gruntfile.js` `concat` conf
 
 ```
 
-var el = jsElements.createElement({
+import { createElement } from 'jsElements';
+
+var el = createElement({
 	id: 'id',
 	name: 'name'
 })
 
 //div.append(el) ...
+
+
 
 ```
 
