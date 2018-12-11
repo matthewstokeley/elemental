@@ -1,9 +1,10 @@
-## Elements
-`elements` contains a couple of methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
+## Javasript Elements
+
+`jsElements` contains a couple of methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
 
 The scope of this library covers two different concerns.
 
-1. Classes - programtically changing state with classes. 
+1. Classes - programatically changing state with classes. 
 
 2. Elements - `create`, `remove`
 
@@ -30,7 +31,7 @@ This library was around the time that `es6` was becoming a standard *should* rel
 
 ```
 
-var el = $$.createElement({
+var el = jsElements.createElement({
 	id: 'id',
 	name: 'name'
 })
@@ -47,7 +48,7 @@ Accepts an `array` of elements, and a `string` class name, and adds the name wit
 
 ```
 // add a `section` class to all `sections` for performative selectors
- $$.addClassToElements(Array.prototype.splice.call(document.getElementsTag('section')), 'section');
+ jsElements.addClassToElements(Array.prototype.splice.call(document.getElementsTag('section')), 'section');
 
 ``` 
 
@@ -56,7 +57,7 @@ Accepts an `array` of elements, and a `string` class name, and adds the name wit
 Accepts an element and a class name.
 
 ```
-$$.addClass(document.getElementById('id'), 'className');
+jsElements.addClass(document.getElementById('id'), 'className');
 ```
 
 ##### createElement
@@ -66,7 +67,7 @@ Create an element using the `createElement` method.  Any valid element property 
 A full list of element properties is available [here](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 
 ```
-$$.createElement({
+jsElements.createElement({
     id: 'elementId',
     name: 'elementName'
 });
@@ -77,7 +78,7 @@ $$.createElement({
 Accepts an element and a class name, and returns a boolean.
 
 ```
-$$.hasClass(el, 'mouseIsCurrentlyHovering');
+jsElements.hasClass(el, 'mouseIsCurrentlyHovering');
 ```
 
 ##### eachClassElement
@@ -85,7 +86,7 @@ $$.hasClass(el, 'mouseIsCurrentlyHovering');
 Accepts `string` class name and a `function`, and `calls` the function for each element - basically a `map` for elements. 
 
 ```
-$$.eachClassElement('section', (el) => { console.log(el); })
+jsElements.eachClassElement('section', (el) => { console.log(el); })
 ```
 
 
@@ -95,7 +96,7 @@ $$.eachClassElement('section', (el) => { console.log(el); })
 Accepts an element and a class name, and removes the class from the element.
 
 ```
-$$.removeClass(el, 'name');
+jsElements.removeClass(el, 'name');
 ```
 
 
@@ -104,7 +105,7 @@ $$.removeClass(el, 'name');
 A backwards-compatible `remove` method.  Accepts an `element` property. 
 
 ```
-$$.removeElement(el);
+jsElements.removeElement(el);
 ```
 
 ##### stringToElement
@@ -112,5 +113,5 @@ $$.removeElement(el);
 Convert an html string to an `element`. 
 
 ```
-var el = $$.stringToElement('<span>a string containing html</span>');
+var el = jsElements.stringToElement('<span>a string containing html</span>');
 ```
