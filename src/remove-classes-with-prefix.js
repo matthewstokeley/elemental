@@ -1,5 +1,6 @@
 /**
  * [removeClassWithPrefix description]
+ * @todo  modularize
  * @param  {[type]} element [description]
  * @param  {[type]} prefix  [description]
  * @return {[type]}         [description]
