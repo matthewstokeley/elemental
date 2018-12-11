@@ -1,5 +1,5 @@
 ## Elements
-Methods for handling dom elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
+Methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
 
 The scope of this library covers two different concerns.
 
@@ -21,7 +21,7 @@ npm install && grunt
 
 ```
 
-Individual modules can be added or removed from `Gruntfile.js` `concat` configuration object: `concat.dist.src`.   
+Individual modules can be added or removed from the `Gruntfile.js` `concat` configuration object: `concat.dist.src`.   
 
 ##### A note on syntax
 This library was around the time that `es6` was becoming a standard *should* rely on a `pojo` (plain old javascript object) for encapsulation.  
