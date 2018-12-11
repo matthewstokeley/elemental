@@ -1,5 +1,5 @@
 ## Elements
-Methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
+`elements` contains a couple of methods for handling `DOM` elements.  This library was meant as a very lightweight replacement for `jQuery`, hat tip to `zepto` and other `jQuery` replacement libraries.
 
 The scope of this library covers two different concerns.
 
