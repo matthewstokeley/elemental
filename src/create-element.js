@@ -1,8 +1,6 @@
 (function(jsElements) {
 	/**
-	 * [createElement description]
-	 * @param  {[type]} options [description]
-	 * @return {[type]}         [description]
+	 * @param  {Object} options
 	 */
 	var createElement = function(options) {
 
